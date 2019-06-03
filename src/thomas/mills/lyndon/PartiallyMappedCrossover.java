@@ -66,7 +66,7 @@ public class PartiallyMappedCrossover implements PMX {
 		//choose select type of pmx
 		int end_type = 2; // End type two means double sided
 		if(double_sided) {
-			end_type = rand.nextInt(1); //This will either become 1 sided or 2 sided. 
+			end_type = rand.nextInt(2); //This will either become 1 sided or 2 sided. 
 		}		
 		//get swath points 
 		int[] swath_points = getSwathPoints(p1,p2,end_type,limit);
