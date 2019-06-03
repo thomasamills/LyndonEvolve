@@ -29,7 +29,7 @@ public class Mutations implements Mutator {
 	}
 	
 	public int[] randomSelectionPoints(char[] o) {
-		int selection_point = rand.nextInt(o.length-1);
+		int selection_point = rand.nextInt(o.length);
 		int move_point = rand.nextInt(o.length);		
 		
 		//Local optima escaping heuristic here
