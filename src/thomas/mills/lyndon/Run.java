@@ -214,8 +214,8 @@ public class Run  {
 	    //We then repopulate the remaining 50% of the population from selecting two random parents 
 	    /// from the proportion of 50% best candidates
 	    for(int i= 0; i < pop_size/2; i++) {
-	    	int parent1 = rand.nextInt(tested_population.size()-1);
-	    	int parent2 = rand.nextInt(tested_population.size()-1);
+	    	int parent1 = rand.nextInt(tested_population.size());
+	    	int parent2 = rand.nextInt(tested_population.size());
 	    	if(parent1 == parent2) { //Makes sure that they are not the same parent
 				if(parent1 == alphabet.length()-1) {
 					parent1--;
