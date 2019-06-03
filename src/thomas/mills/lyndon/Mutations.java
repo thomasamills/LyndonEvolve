@@ -42,14 +42,14 @@ public class Mutations implements Mutator {
                 }
                 else if(rand_int>7)		
                 	if(rand.nextBoolean())
-			            move_point = 2; 	
+			            move_point = 1; 	
                 	else
-                	    selection_point = 2;
+                	    selection_point = 1;
                 else if(rand_int>6)
                 	if(rand.nextBoolean())
-			            move_point = 3; 	
+			            move_point = 2; 	
                 	else
-                	    selection_point = 3;           
+                	    selection_point = 2;           
                 
 		if(move_point == selection_point) {
 			if(selection_point == o.length-1) {
