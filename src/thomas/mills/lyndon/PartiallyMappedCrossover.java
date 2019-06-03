@@ -34,8 +34,8 @@ public class PartiallyMappedCrossover implements PMX {
 		}
 		//No Bias
 		else { 
-			swath_start = rand.nextInt(permutation_length-1);
-			swath_finish = rand.nextInt(permutation_length-1);
+			swath_start = rand.nextInt(permutation_length);
+			swath_finish = rand.nextInt(permutation_length);
 		}
 		//Make sure swath starts are not equal
 		if(swath_start == swath_finish) {
