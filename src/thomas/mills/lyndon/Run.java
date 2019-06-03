@@ -37,7 +37,7 @@ public class Run  {
 		double_sided_pmx =false; // change to double sided pmx 
 		swath_limit = 0.6;
 		use_mutation = true;
-		mutation_rate = 10; // 100%
+		mutation_rate = 9; // 100%
 		print = false;
         //FITNESS TEST
 		fitness = new FitnessTest(print);
