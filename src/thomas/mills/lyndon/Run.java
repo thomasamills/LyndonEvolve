@@ -231,7 +231,7 @@ public class Run  {
 	    			    ,swath_limit,double_sided_pmx);
 	    	
 	    	if(use_mutation) { //if we chooose to use mutation
-	    		if(rand.nextInt(9) < mutation_rate) { /*Mutation rate here is represented as an integer 
+	    		if(rand.nextInt(10) < mutation_rate) { /*Mutation rate here is represented as an integer 
 	    		from 0 to 10, representing 0.1, 0.2, 0.3......1.0 mutation rates. 
 	    		*/
 	    			// if mutation was used, this is added to the population
