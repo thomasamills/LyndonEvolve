@@ -33,7 +33,7 @@ public class Mutations implements Mutator {
 		int move_point = rand.nextInt(o.length);		
 		
 		//Local optima escaping heuristic here
-		int rand_int = rand.nextInt(9);		
+		int rand_int = rand.nextInt(10);		
                 if(rand_int > 8 ) {
                 	if(rand.nextBoolean())
 			            move_point = 0; 	
