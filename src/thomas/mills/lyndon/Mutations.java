@@ -19,7 +19,7 @@ public class Mutations implements Mutator {
 		
 	public char[] randMutate(char[] o){
 		int[] selection_points = randomSelectionPoints(o);
-		int rand_int = rand.nextInt(9);
+		int rand_int = rand.nextInt(10);
 	    if(rand_int > 8 ) { // 1/10 probability
 	    	return randSwap(o, selection_points);
 	    }
