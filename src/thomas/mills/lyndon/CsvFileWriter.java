@@ -11,7 +11,7 @@ public class CsvFileWriter {
 	
     private static final String DELIM = ",";
     private static final String LINE = "\n";
-    private static final String RESULT_FILE_PATH = "C:/Users/Thomas/eclipse-workspace/LyndonGA/results/";
+    private static final String RESULT_FILE_PATH = System.getProperty("user.dir") + "/results/";
     
  
     public static void writeCsvFile(String file_name, String string_id, ArrayList<ArrayList<OrderingFitnessValue>> data) {
