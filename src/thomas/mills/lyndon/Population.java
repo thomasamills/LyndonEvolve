@@ -26,13 +26,13 @@ public class Population {
 		    list.add(c);
 		}
 		for(int i = 0; i < population_size; i++	) {
+			Collections.shuffle(list);
 			StringBuilder sb = new StringBuilder(list.size());
 			for (Character c : list) {
 			  sb.append(c);
 			}
 			String order = sb.toString();
 			population.add(order.toCharArray());
-			Collections.shuffle(list);
 		}
 	}
 	
