@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ff9eeadf-43cd-43a1-99e1-d593c3d7cbb3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/Mapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/Mapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreedyAlgResults" beforeDir="false" afterPath="$PROJECT_DIR$/GreedyAlgResults" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thomas/mills/lyndon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -21,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,18 +64,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/CharacterExponentsPair.java">
+        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/proteintest/ReadFastaToString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408" />
+            <state relative-caret-position="27">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/FitnessTest.java">
+        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/CharacterExponentsPair.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1115">
-              <caret line="150" column="48" selection-start-line="150" selection-start-column="48" selection-end-line="150" selection-end-column="48" />
-            </state>
+            <state relative-caret-position="-408" />
           </provider>
         </entry>
       </file>
@@ -84,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+            <state relative-caret-position="408">
+              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,25 +96,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/Mapping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="113" column="56" lean-forward="true" selection-start-line="113" selection-start-column="56" selection-end-line="113" selection-end-column="56" />
+            <state relative-caret-position="132">
+              <caret line="110" column="34" lean-forward="true" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
               <folding>
                 <element signature="e#469#470#0" expanded="true" />
                 <element signature="e#492#493#0" expanded="true" />
-                <element signature="e#3239#3240#0" expanded="true" />
+                <element signature="e#3230#3231#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GreedyAlgResults">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="232" column="5" lean-forward="true" selection-start-line="232" selection-start-column="5" selection-end-line="232" selection-end-column="5" />
+            <state relative-caret-position="-239361">
+              <caret line="3966" column="34" lean-forward="true" selection-start-line="3966" selection-start-column="34" selection-end-line="3966" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -128,9 +131,10 @@
         <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/Population.java" />
         <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/factorization/Duval.java" />
         <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/Run.java" />
-        <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/Main.java" />
-        <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg.java" />
+        <option value="$PROJECT_DIR$/GreedyAlgResults" />
         <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/Mapping.java" />
+        <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg.java" />
+        <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/Main.java" />
       </list>
     </option>
   </component>
@@ -335,7 +339,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561471896978</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="The method readjust was rewritten because of a mistake in the logic. Fixed">
+      <created>1561473820422</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561473820422</updated>
+    </task>
+    <task id="LOCAL-00006" summary="The method readjust was rewritten because of a mistake in the logic. Fixed">
+      <created>1561476340831</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561476340831</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -408,7 +426,8 @@
     <MESSAGE value="Changed generateRandomPopulation() method in the Population class because the first order of the alphabet added to the population was the order in which the alphabet was given. It was changed so that the list is shuffle before the first time that is used." />
     <MESSAGE value="Put Greedy algorithm into project / added a method (reajust) to mapping so that for any ordering of an alphabet of the same size of the roman alphabet or smaller, the output will be displayable using ASCII characters / implemented method to write results to a text file." />
     <MESSAGE value="Typo in method &quot;reajust&quot; fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Typo in method &quot;reajust&quot; fixed" />
+    <MESSAGE value="The method readjust was rewritten because of a mistake in the logic. Fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="The method readjust was rewritten because of a mistake in the logic. Fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -418,12 +437,6 @@
           <line>25</line>
           <properties />
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/thomas/mills/lyndon/Main.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -460,13 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-170">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/proteintest/ReadFastaToString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -641,26 +647,6 @@
     <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/CharExpFactPair.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GCF_000009605.1_ASM960v1_protein.faa">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -668,22 +654,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GreedyAlgResults">
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/proteintest/ReadFastaToString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="232" column="5" lean-forward="true" selection-start-line="232" selection-start-column="5" selection-end-line="232" selection-end-column="5" />
+        <state relative-caret-position="27">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/Mapping.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="113" column="56" lean-forward="true" selection-start-line="113" selection-start-column="56" selection-end-line="113" selection-end-column="56" />
+        <state relative-caret-position="132">
+          <caret line="110" column="34" lean-forward="true" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
           <folding>
             <element signature="e#469#470#0" expanded="true" />
             <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#3239#3240#0" expanded="true" />
+            <element signature="e#3230#3231#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GreedyAlgResults">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-239361">
+          <caret line="3966" column="34" lean-forward="true" selection-start-line="3966" selection-start-column="34" selection-end-line="3966" selection-end-column="34" />
         </state>
       </provider>
     </entry>

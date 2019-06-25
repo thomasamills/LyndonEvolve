@@ -1,8 +1,6 @@
 package thomas.mills.lyndon;
-import thomas.mills.lyndon.proteintest.TestProteinSequences;
 import thomas.mills.lyndon.GreedyAlgorithm.*;
 
-import java.io.File;
 import java.util.Map;
 
 public class Main  {

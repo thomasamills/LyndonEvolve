@@ -34,6 +34,7 @@ public abstract class AlphabetReorderingAlg {
                 printWriter.print("Difference in number of factors: ");
                 printWriter.println(proteinSeqFactReorder.size() - proteinSeqFactors.size());
                 printWriter.println("---------------------------------------------");
+                printWriter.flush();
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
