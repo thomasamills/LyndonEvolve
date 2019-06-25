@@ -38,7 +38,6 @@ public abstract class AlphabetReorderingAlg {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-
     }
 
     public static String reorder(String word, Mapping map, boolean noBacktrack){

@@ -16,7 +16,6 @@ public class Main  {
 		tps.balancedFactors();
 		tps.balancedEvolvedFactors();
 		*/
-		Mapping map = new Mapping();
 		Map<String, String> sequence = new ReadFastaToString().read(System.getProperty("user.dir") + "\\GCF_000009605.1_ASM960v1_protein.faa");
 		System.out.println(sequence.values());
 		AlphabetReorderingAlg.reorderSequence(sequence, false);

@@ -109,7 +109,6 @@ public class Mapping {
 
     public void readjust(){
         Collections.sort(letters);
-
         for (int i = 0; i < letters.size(); i++){
             letters.get(i).setAlphabetLocation('a' + i);
         }
