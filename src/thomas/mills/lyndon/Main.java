@@ -1,14 +1,24 @@
 package thomas.mills.lyndon;
 import thomas.mills.lyndon.proteintest.TestProteinSequences;
+import thomas.mills.lyndon.GreedyAlgorithm.*;
+
+import java.io.File;
+import java.util.Map;
 
 public class Main  {
 
 	public static void main(String[] args) {
+		/*
 		TestProteinSequences tps =new TestProteinSequences();
 		tps.LexoFactors();
 		tps.minimalFactors();
 		tps.maximalFactors();
 		tps.balancedFactors();
 		tps.balancedEvolvedFactors();
+		*/
+		Mapping map = new Mapping();
+		Map<String, String> sequence = new ReadFastaToString().read(System.getProperty("user.dir") + "\\GCF_000009605.1_ASM960v1_protein.faa");
+		System.out.println(sequence.values());
+		AlphabetReorderingAlg.reorderSequence(sequence, false);
 	}
 }

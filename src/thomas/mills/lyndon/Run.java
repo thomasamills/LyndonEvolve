@@ -68,7 +68,7 @@ public class Run  {
 	 * @param input The string to be factorized
 	 * @param opt_type (0 for minimization, 1 for maximization, 2 for balanced and 3 for specific)
 	 * @param desired_factors (the amount of desired factors, this is ignored if not using a specific evolution)
-	 * @return The optimal ordering for the evoloution type chosen. 
+	 * @return The optimal ordering for the evolution type chosen.
 	 */
 	public char[] run(String input, int opt_type, int desired_factors, String stringId) {
 		//It first finds the alphabet from the input string
@@ -84,20 +84,16 @@ public class Run  {
 			int factors = duval.factor(alphabet.toCharArray(), input.toCharArray()).size();
 			//if it can factor minimally (we cannot split further, therefore there is no point in running the genetic algorithm)
 			if(factors == 1) {
-				if(opt_type == 0) {
-					//if it is minimization, we return this optimal ordering
-					return alphabet.toCharArray();
-				}
+				//if it is minimization, we return this optimal ordering
+				return alphabet.toCharArray();
 			}
 		}
 		//This will be ran we could not factor using the simple rule
 		//A population set will be created
 		population  = new Population(alphabet,pop_size);
 		//The ordering will then be gathered by calling the evolve function passing in the required paramaters.
-		
-		char [] ordering  =evolve(input,alphabet,opt_type,desired_factors, stringId);
-        
-		return ordering;
+
+		return evolve(input,alphabet,opt_type,desired_factors, stringId);
 	}
 	
 	/**
@@ -145,22 +141,22 @@ public class Run  {
 		}
 		//Initializes new list to store a population
 		ArrayList<char[]> tested_population = new ArrayList<char[]>();	
-		//As long as we havent reached the maximum amount. 
+		//As long as we haven't reached the maximum amount.
 		while(generation_count <= max_generations) {
 			//If the printing variable is set, it will print out the generation number
 			if(print)
 			    System.out.println("Generation: " + generation_count);
-			//tests the population beased upon the desired output (it will return the 50% best candidate solutions)
+			//tests the population based upon the desired output (it will return the 50% best candidate solutions)
 			tested_population = fitness.testFitness(population, 
 					input.toCharArray(), opt_type ,desired_factors, stringId);
 			//If there is only one being returned, it must be the optimal (in the case if we have found the K input ordering, or 
-			// one that can factor into two facors. 
+			// one that can factor into two factors.
 			if(tested_population.size() == 1) {
 				this.printToCsv(opt_type, stringId);
 				return tested_population.get(0);
 			}
 			
-			//Otherwise, if we havent found the most optimal solution yet we recreate the population.
+			//Otherwise, if we haven't found the most optimal solution yet we recreate the population.
 			recreatePopulation(tested_population,alphabet,population);
 			//increment the generation count
 			generation_count++;
@@ -171,7 +167,7 @@ public class Run  {
 		this.printToCsv(opt_type, stringId);
 		
 		
-		//Once the required amount of generations has been fulfuiled it will return the most optimal solution. 
+		//Once the required amount of generations has been fulfilled it will return the most optimal solution.
 	    return population.getPopulation().get(0);
 	}
 	
