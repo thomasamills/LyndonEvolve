@@ -2,7 +2,6 @@ package thomas.mills.lyndon.GreedyAlgorithm;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.util.*;
 
@@ -82,7 +81,7 @@ public abstract class AlphabetReorderingAlg {
                 map.reset(n);
             }
             map.assignAll(word);
-            map.reajust();
+            map.readjust();
             String reordered = map.mapString(word);
             return reordered;
         }
@@ -101,7 +100,7 @@ public abstract class AlphabetReorderingAlg {
                 map.reset(n);
             }
             map.assignAll(word);
-            map.reajust();
+            map.readjust();
             String reordered = map.mapString(word);
             return reordered;
         }

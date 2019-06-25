@@ -105,7 +105,7 @@ public class Mapping {
         }
     }
 
-    public void reajust(){
+    public void readjust(){
         char smallestAsciiChar = (char) letters.get(0).getAlphabetLocation();
         for(Letter letter : letters){
             if(letter.getAlphabetLocation() < smallestAsciiChar){
