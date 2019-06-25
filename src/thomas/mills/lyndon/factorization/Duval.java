@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class Duval implements Factorization {
 	
 	/**
-	 * chekcOrder takes in an encoded character array, and two characters 
+	 * checkOrder takes in an encoded character array, and two characters
 	 * it returns 1 if char a is smaller, 0 if char a is larger and -1 if they are equal. 
 	 */
 	public int checkOrder(char[] o, char a, char b){
@@ -22,13 +22,13 @@ public class Duval implements Factorization {
 	 * 
 	 * 
 	*/
-	public String sliceString(char[] array, int start, int last) {
+	private String sliceString(char[] array, int start, int last) {
 	    return new String(array, start, last - start);
 	}
 
 	
 	/**
-	 * Standard implementaion of the duval factorization algorithm aside from is uses the check order 
+	 * Standard implementation of the duval factorization algorithm aside from is uses the check order
 	 * method instead of lexicographical. 
 	 */
 	
@@ -48,8 +48,8 @@ public class Duval implements Factorization {
 				}
 				else {
 					if(this.checkOrder(ordering,s[j-1], s[i-1]) == 0)
-						i = k+1;	
-					else 
+						i = k+1;
+					else
 						i = i+1;
 					j = j+1;
 				}
@@ -57,6 +57,4 @@ public class Duval implements Factorization {
 		}
 		return factors;
 	}
-	
-
 }
