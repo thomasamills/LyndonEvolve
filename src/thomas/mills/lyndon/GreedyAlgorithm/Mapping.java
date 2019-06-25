@@ -1,6 +1,8 @@
 package thomas.mills.lyndon.GreedyAlgorithm;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Objects;
 
 public class Mapping {
@@ -106,15 +108,10 @@ public class Mapping {
     }
 
     public void readjust(){
-        char smallestAsciiChar = (char) letters.get(0).getAlphabetLocation();
-        for(Letter letter : letters){
-            if(letter.getAlphabetLocation() < smallestAsciiChar){
-                smallestAsciiChar = (char) letter.getAlphabetLocation();
-            }
-        }
-        int diffBetween_a_andSmallest = (int) smallestAsciiChar - 'a';
-        for(Letter letter : letters){
-            letter.setAlphabetLocation(letter.getAlphabetLocation() - diffBetween_a_andSmallest);
+        Collections.sort(letters);
+
+        for (int i = 0; i < letters.size(); i++){
+            letters.get(i).setAlphabetLocation('a' + i);
         }
     }
 
@@ -135,7 +132,7 @@ public class Mapping {
     }
 
     //---------------Letter class------------------------------------------------
-    private class Letter{
+    private class Letter implements Comparable{
         char letter;
         int alphabetLocation;
 
@@ -175,6 +172,13 @@ public class Mapping {
                     "letter=" + letter +
                     ", alphabetLocation=" + alphabetLocation +
                     '}';
+        }
+
+        @Override
+        public int compareTo(Object o) {
+            int alphLoc1 = this.getAlphabetLocation();
+            int alphLoc2 = ((Letter) o).getAlphabetLocation();
+            return Integer.compare(alphLoc1, alphLoc2);
         }
     }
 //---------------------------------------------------------------------------
