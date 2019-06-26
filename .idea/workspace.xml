@@ -2,55 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17c63cd4-56ab-4765-8fbb-1717d4802a56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/results/NP_239844.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_239851.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_239872.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_239875.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_239889.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_239893.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_239919.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_239963.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_239986.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_239993.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240012.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240026.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240038.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240042.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240044.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240051.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240065.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240108.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240113.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240127.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240135.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240144.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240146.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240167.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240180.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240185.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240200.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240242.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240264.2_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240268.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240283.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240289.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240295.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240325.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240346.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240349.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240353.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240377.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240392.2_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240396.1_min.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/NP_240400.1_min.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_hamcrest_hamcrest_core_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/lep31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GreedyAlgResults" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/CharExpFactPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/CharacterExponentsPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/ExponentParikhVector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/LyndonFactorizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/Mapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/ReadFastaToString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LyndonGA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LyndonGA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/CsvFileWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/CsvFileWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/FitnessTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/FitnessTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/Mutations.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/Mutations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/Mutator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/Mutator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/PMX.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/PMX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/PartiallyMappedCrossover.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/PartiallyMappedCrossover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/Population.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/Population.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/Run.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/datastructures/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/datastructures/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/datastructures/DoubleEndedPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/datastructures/DoubleEndedPQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/datastructures/OrderingFitnessValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/datastructures/OrderingFitnessValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/factorization/Duval.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/factorization/Duval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/factorization/FactorVariationCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/factorization/FactorVariationCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/factorization/Factorization.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/factorization/Factorization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/proteintest/ReadFastaToString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/proteintest/ReadFastaToString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/proteintest/TestProteinSequences.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/proteintest/TestProteinSequences.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/BinaryTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/BinaryTreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/DuvalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/DuvalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/FactorVariationCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/FactorVariationCalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/FitnessTestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/FitnessTestTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/MutationsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/MutationsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/PMXTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/PMXTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/PriorityQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/PriorityQueueTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/RunTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/TestPopulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/TestPopulation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_057963.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_057963.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_057963.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_057963.1_max.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/NP_057963.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_057963.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_057964.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_057964.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_057964.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_057964.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_057965.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_057965.1_bal.txt" afterDir="false" />
@@ -71,6 +60,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_239843.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239843.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239844.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239844.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239844.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239844.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_239844.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239844.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239845.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239845.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239845.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239845.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239846.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239846.1_bal.txt" afterDir="false" />
@@ -85,6 +75,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_239850.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239850.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239851.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239851.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239851.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239851.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_239851.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239851.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239852.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239852.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239852.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239852.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239853.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239853.1_bal.txt" afterDir="false" />
@@ -128,12 +119,14 @@
       <change beforePath="$PROJECT_DIR$/results/NP_239871.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239871.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239872.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239872.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239872.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239872.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_239872.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239872.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239873.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239873.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239873.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239873.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239874.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239874.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239874.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239874.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239875.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239875.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239875.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239875.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_239875.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239875.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239876.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239876.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239876.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239876.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239877.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239877.1_bal.txt" afterDir="false" />
@@ -162,6 +155,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_239888.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239888.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239889.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239889.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239889.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239889.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_239889.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239889.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239890.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239890.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239890.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239890.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239891.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239891.1_bal.txt" afterDir="false" />
@@ -170,6 +164,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_239892.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239892.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239893.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239893.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239893.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239893.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_239893.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239893.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239894.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239894.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239894.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239894.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239895.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239895.1_bal.txt" afterDir="false" />
@@ -309,6 +304,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_239962.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239962.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239963.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239963.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239963.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239963.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_239963.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239963.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239964.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239964.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239964.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239964.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239965.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239965.1_bal.txt" afterDir="false" />
@@ -355,6 +351,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_239985.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239985.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239986.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239986.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239986.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239986.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_239986.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239986.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239987.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239987.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239987.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239987.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239988.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239988.1_bal.txt" afterDir="false" />
@@ -407,6 +404,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240011.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240011.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240012.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240012.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240012.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240012.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240012.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240012.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240013.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240013.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240013.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240013.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240014.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240014.1_bal.txt" afterDir="false" />
@@ -459,6 +457,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240037.2_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240037.2_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240038.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240038.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240038.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240038.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240038.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240038.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240039.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240039.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240039.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240039.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240040.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240040.1_bal.txt" afterDir="false" />
@@ -467,6 +466,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240041.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240041.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240042.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240042.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240042.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240042.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240042.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240042.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240043.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240043.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240043.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240043.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240044.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240044.1_bal.txt" afterDir="false" />
@@ -485,6 +485,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240050.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240050.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240051.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240051.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240051.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240051.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240051.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240051.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240052.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240052.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240052.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240052.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240053.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240053.1_bal.txt" afterDir="false" />
@@ -513,6 +514,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240064.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240064.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240065.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240065.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240065.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240065.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240065.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240065.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240066.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240066.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240066.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240066.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240067.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240067.1_bal.txt" afterDir="false" />
@@ -601,6 +603,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240107.2_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240107.2_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240108.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240108.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240108.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240108.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240108.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240108.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240109.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240109.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240109.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240109.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240110.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240110.1_bal.txt" afterDir="false" />
@@ -611,6 +614,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240112.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240112.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240113.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240113.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240113.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240113.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240113.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240113.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240114.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240114.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240114.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240114.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240115.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240115.1_bal.txt" afterDir="false" />
@@ -639,6 +643,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240126.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240126.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240127.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240127.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240127.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240127.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240127.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240127.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240128.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240128.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240128.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240128.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240129.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240129.1_bal.txt" afterDir="false" />
@@ -655,6 +660,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240134.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240134.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240135.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240135.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240135.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240135.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240135.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240135.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240136.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240136.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240136.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240136.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240137.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240137.1_bal.txt" afterDir="false" />
@@ -673,6 +679,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240143.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240143.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240144.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240144.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240144.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240144.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240144.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240144.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240145.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240145.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240145.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240145.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240146.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240146.1_bal.txt" afterDir="false" />
@@ -691,7 +698,6 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240152.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240152.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240153.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240153.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240153.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240153.1_max.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/NP_240153.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240153.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240154.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240154.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240154.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240154.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240155.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240155.1_bal.txt" afterDir="false" />
@@ -720,6 +726,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240166.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240166.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240167.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240167.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240167.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240167.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240167.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240167.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240168.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240168.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240168.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240168.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240169.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240169.1_bal.txt" afterDir="false" />
@@ -786,6 +793,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240199.2_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240199.2_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240200.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240200.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240200.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240200.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240200.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240200.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240201.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240201.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240201.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240201.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240202.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240202.1_bal.txt" afterDir="false" />
@@ -915,6 +923,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240263.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240263.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240264.2_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240264.2_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240264.2_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240264.2_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240264.2_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240264.2_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240265.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240265.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240265.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240265.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240266.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240266.1_bal.txt" afterDir="false" />
@@ -953,6 +962,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240282.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240282.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240283.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240283.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240283.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240283.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240283.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240283.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240284.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240284.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240284.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240284.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240285.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240285.1_bal.txt" afterDir="false" />
@@ -965,6 +975,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240288.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240288.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240289.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240289.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240289.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240289.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240289.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240289.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240290.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240290.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240290.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240290.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240291.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240291.1_bal.txt" afterDir="false" />
@@ -977,6 +988,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240294.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240294.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240295.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240295.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240295.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240295.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240295.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240295.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240296.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240296.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240296.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240296.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240297.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240297.1_bal.txt" afterDir="false" />
@@ -1037,6 +1049,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240324.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240324.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240325.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240325.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240325.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240325.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240325.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240325.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240326.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240326.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240326.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240326.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240327.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240327.1_bal.txt" afterDir="false" />
@@ -1079,12 +1092,14 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240345.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240345.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240346.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240346.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240346.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240346.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240346.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240346.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240347.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240347.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240347.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240347.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240348.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240348.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240348.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240348.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240349.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240349.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240349.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240349.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240349.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240349.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240350.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240350.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240350.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240350.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240351.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240351.1_bal.txt" afterDir="false" />
@@ -1141,6 +1156,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240376.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240376.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240377.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240377.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240377.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240377.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240377.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240377.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240378.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240378.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240378.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240378.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240379.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240379.1_bal.txt" afterDir="false" />
@@ -1180,6 +1196,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240395.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240395.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240396.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240396.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240396.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240396.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240396.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240396.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240397.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240397.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240397.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240397.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240398.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240398.1_bal.txt" afterDir="false" />
@@ -1189,6 +1206,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240399.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240399.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240400.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240400.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240400.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240400.1_max.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240400.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240400.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240401.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240401.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240401.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240401.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240402.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240402.1_bal.txt" afterDir="false" />
@@ -1203,7 +1221,9 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240406.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240406.1_max.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/YP_008492944.1_bal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/YP_008492944.1_bal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/YP_008492944.1_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/YP_008492944.1_max.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thomas/mills/lyndon/factorization/Duval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/factorization/Duval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thomas/mills/lyndon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thomas/mills/lyndon/Population.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/Population.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thomas/mills/lyndon/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/Run.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1214,62 +1234,138 @@
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="987370284">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.56" value="1" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="GreedyAlgResults" value="2" />
+          <entry key="faa" value="1" />
+          <entry key="java" value="9" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="9" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1081" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1081" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Population.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="311">
+              <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+              <folding>
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#1492#1493#0" expanded="true" />
+                <element signature="e#1516#1517#0" expanded="true" />
+                <element signature="e#1576#1577#0" expanded="true" />
+                <element signature="e#1611#1612#0" expanded="true" />
+                <element signature="e#1648#1649#0" expanded="true" />
+                <element signature="e#1677#1678#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/factorization/Factorization.java">
+        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Run.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="952">
+              <caret line="92" column="56" lean-forward="true" selection-start-line="92" selection-start-column="56" selection-end-line="92" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/factorization/FactorVariationCalculator.java">
+        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/proteintest/TestProteinSequences.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="-301">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/factorization/Duval.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+            <state relative-caret-position="238">
+              <caret line="109" column="12" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/ExponentParikhVector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-374">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/Mapping.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/LyndonFactorizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" column="47" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GreedyAlgResults">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-272">
+              <caret line="113" column="85" selection-start-line="113" selection-start-column="85" selection-end-line="113" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GCF_000009605.1_ASM960v1_protein.faa">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17515">
+              <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -1279,16 +1375,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../../MinecraftMod" value="PREVIEW" />
-        <entry key="$USER_HOME$/Downloads/forge-1.12.2-14.23.5.2814-mdk" value="PREVIEW" />
-      </map>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg.java" />
+        <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/Population.java" />
+      </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -1297,14 +1394,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="LyndonGA" type="b2602c69:ProjectViewProjectNode" />
               <item name="LyndonEvolve" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LyndonGA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LyndonEvolve" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LyndonGA" type="b2602c69:ProjectViewProjectNode" />
@@ -1329,16 +1429,26 @@
               <item name="LyndonEvolve" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lyndon" type="462c0819:PsiDirectoryNode" />
+              <item name="GreedyAlgorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LyndonGA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LyndonEvolve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lyndon" type="462c0819:PsiDirectoryNode" />
               <item name="proteintest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ReorderingAlg/AlphabetOrderingAlgorithm" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561584901395" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1351,6 +1461,26 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thomas.mills.lyndon.Main" />
+      <module name="LyndonGA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thomas.mills.lyndon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -1366,9 +1496,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="697" height="735" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26373628" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20574887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1376,15 +1507,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49848714" visible="true" weight="0.32459018" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.32786885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5015129" side_tool="true" visible="true" weight="0.32459018" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4977307" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1399,10 +1531,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Population.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="-2642">
+          <caret line="2621" column="16" lean-forward="true" selection-start-line="2621" selection-start-column="16" selection-end-line="2621" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1422,8 +1554,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/factorization/Duval.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="493">
           <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/CharacterExponentsPair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="18" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/Mapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/ExponentParikhVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCF_000009605.1_ASM960v1_protein.faa">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17515">
+          <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/LyndonFactorizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="47" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="109" column="12" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GreedyAlgResults">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="113" column="85" selection-start-line="113" selection-start-column="85" selection-end-line="113" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="92" column="56" lean-forward="true" selection-start-line="92" selection-start-column="56" selection-end-line="92" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/proteintest/TestProteinSequences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-301">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Population.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+          <folding>
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#1492#1493#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1576#1577#0" expanded="true" />
+            <element signature="e#1611#1612#0" expanded="true" />
+            <element signature="e#1648#1649#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
