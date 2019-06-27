@@ -1,7 +1,6 @@
 package thomas.mills.lyndon.GreedyAlgorithm;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Objects;
 
@@ -39,7 +38,7 @@ public class Mapping {
     }
 
     /**
-     * Unassign all assignments that were after n (not including n)
+     * Unassigns all assignments that were after n (not including n)
      * @param letter
      */
     public void unassignUpTo(Letter letter){
@@ -107,6 +106,10 @@ public class Mapping {
         }
     }
 
+    /**
+     * Reassigns each letter to lower ascii characters (without changing the order) in order
+     * to have letters representable in ascii, starting from 'a'.
+     */
     public void readjust(){
         Collections.sort(letters);
         for (int i = 0; i < letters.size(); i++){
@@ -118,7 +121,14 @@ public class Mapping {
         return alphabetLoc;
     }
 
-
+    public char[] asOrder(){
+        Collections.sort(letters);
+        char[] order = new char[letters.size()];
+        for(int i = 0; i < letters.size(); i++){
+            order[i] = letters.get(i).getLetter();
+        }
+        return order;
+    }
 
     @Override
     public String toString() {

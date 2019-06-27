@@ -8,7 +8,7 @@ import java.util.*;
 public abstract class AlphabetReorderingAlg {
 
     public static void reorderSequence(Map<String, String> sequence, boolean noBacktrack){
-        String pathname = System.getProperty("user.dir") + "\\GreedyAlgResults";
+        String pathname = System.getProperty("user.dir") + "\\GreedyAlgResults.txt";
         File file = new File(pathname);
         try {
             PrintWriter printWriter = new PrintWriter(file);

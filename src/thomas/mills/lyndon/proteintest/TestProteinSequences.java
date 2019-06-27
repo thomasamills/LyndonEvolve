@@ -46,7 +46,7 @@ public class TestProteinSequences {
         for(int i : scores) {
 			count +=i;
 		}
-		System.out.println("Total Number of Factors after Performing a minimiazion on the whole set");
+		System.out.println("Total Number of Factors after Performing a minimization on the whole set");
 		System.out.println(count);
 		return scores;
 		
@@ -59,8 +59,8 @@ public class TestProteinSequences {
 		for (Map.Entry<String, String> entry : sequences.entrySet()) {
 		    String key = entry.getKey();
 		    String value = entry.getValue();
-			char[] lexicographpical = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
-			scores.add(duval.factor(lexicographpical, value.toCharArray()).size());
+			char[] lexicographical = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
+			scores.add(duval.factor(lexicographical, value.toCharArray()).size());
 		}
 		//total amount of factors
 		count=0;
