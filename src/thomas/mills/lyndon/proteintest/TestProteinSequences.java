@@ -35,13 +35,13 @@ public class TestProteinSequences {
 	 * evolution, to minimize the amount of factors. 
 	 * @return An array List of factor sizes (used to become a summation in comparison to a data set for lexicographical)
 	 */
-	public ArrayList<Integer> minimalFactors(){
+	public ArrayList<Integer> minimalFactors(String option){
 		ArrayList<Integer> scores = new ArrayList<Integer>();
 		int count = 0;
 		for (Map.Entry<String, String> entry : sequences.entrySet()) {
 		    String key = entry.getKey();
 		    String value = entry.getValue();
-		    scores.add(duval.factor(run.run(value, 0, -1, key), value.toCharArray()).size());
+		    scores.add(duval.factor(run.run(value, 0, -1, key, option), value.toCharArray()).size());
 		}
         for(int i : scores) {
 			count +=i;
@@ -82,13 +82,13 @@ public class TestProteinSequences {
 	 * evolution, to manimize the amount of factors. 
 	 * @return An array List of factor sizes (used to become a summation in comparison to a data set for lexicographical)
 	*/
-	public ArrayList<Integer> maximalFactors(){
+	public ArrayList<Integer> maximalFactors(String option){
 		ArrayList<Integer> scores = new ArrayList<Integer>();
 		int count = 0;
 		for (Map.Entry<String, String> entry : sequences.entrySet()) {
 		    String key = entry.getKey();
 		    String value = entry.getValue();
-		    scores.add(duval.factor(run.run(value, 1, -1, key), value.toCharArray()).size());
+		    scores.add(duval.factor(run.run(value, 1, -1, key, option), value.toCharArray()).size());
 		}
 		for(int i : scores) {
 			count +=i;
@@ -117,7 +117,7 @@ public class TestProteinSequences {
 		return scores;
 	}
 	
-	public ArrayList<Double> balancedEvolvedFactors(){
+	public ArrayList<Double> balancedEvolvedFactors(String option){
 		FactorVariationCalculator fvc = new FactorVariationCalculator();
 		ArrayList<Double> scores = new ArrayList<Double>();
 		for (Map.Entry<String, String> entry : sequences.entrySet()) {
@@ -125,7 +125,7 @@ public class TestProteinSequences {
 		    String value = entry.getValue();
 		
 			char[] lexicographpical = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
-			scores.add(fvc.calculate(duval.factor(run.run(value, 2, -1, key), value.toCharArray())));
+			scores.add(fvc.calculate(duval.factor(run.run(value, 2, -1, key, option), value.toCharArray())));
 		}
 		Double summation = 0.0;
 		for(Double d: scores) {

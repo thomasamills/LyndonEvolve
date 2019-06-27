@@ -16,7 +16,7 @@ public class TestPopulation {
 	public void setUp() {		
 		alphabet = "abc";
 		population_size = 50;
-		p = new Population(alphabet,population_size);
+		p = new Population(alphabet,population_size,"srandom");
 	}
 
 	@Test

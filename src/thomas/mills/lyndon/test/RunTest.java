@@ -19,7 +19,7 @@ public class RunTest {
 	@Before 
 	public void setUp() {
 		run = new Run();
-		p = new Population("abcdefg",10);
+		p = new Population("abcdefg",10,"srandom");
 		half_pop = new ArrayList<char[]>();
 		for(int i = 0; i< p.getPopulationSize()/2; i++) {
 			half_pop.add(p.getPopulation().get(i));

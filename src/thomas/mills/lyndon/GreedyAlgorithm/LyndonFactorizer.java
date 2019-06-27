@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public abstract class LyndonFactorizer {
 
-    public static ArrayList<String> factorize(String s, boolean inversedAlphabet) {
+    public static ArrayList<String> factorize(String s, boolean inverseAlphabet) {
         int k = 0;
         char[] chars = s.toCharArray();
         ArrayList<String> resultList = new ArrayList<>();
@@ -13,8 +13,8 @@ public abstract class LyndonFactorizer {
             int j = k;
 
             //In the following "while" and "if" statements there are basically 2 cases: one if the alphabet order is reversed and one if it is not. These separated by and "or".
-            while (i < chars.length && ((chars[j] <= chars[i] && !inversedAlphabet) || (chars[j] >= chars[i] && inversedAlphabet))){
-                if((chars[j] < chars[i] && !inversedAlphabet) || (chars[j] > chars[i] && inversedAlphabet)){
+            while (i < chars.length && ((chars[j] <= chars[i] && !inverseAlphabet) || (chars[j] >= chars[i] && inverseAlphabet))){
+                if((chars[j] < chars[i] && !inverseAlphabet) || (chars[j] > chars[i] && inverseAlphabet)){
                     j = k;
                 }
                 else{

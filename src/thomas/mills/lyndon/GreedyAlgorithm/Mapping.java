@@ -49,7 +49,7 @@ public class Mapping {
                 newLetters.add(aLetter);
             }
         }
-        letters = newLetters; //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        letters = newLetters;
         alphabetLoc += 1;
     }
 

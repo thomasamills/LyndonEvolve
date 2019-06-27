@@ -70,7 +70,7 @@ public class Run  {
 	 * @param desired_factors (the amount of desired factors, this is ignored if not using a specific evolution)
 	 * @return The optimal ordering for the evolution type chosen.
 	 */
-	public char[] run(String input, int opt_type, int desired_factors, String stringId) {
+	public char[] run(String input, int opt_type, int desired_factors, String stringId, String option) {
 		//It first finds the alphabet from the input string
 		//Asserts that the alphabet must be larger than 3
 		String alphabet = findAlphabetFromString(input);
@@ -78,7 +78,7 @@ public class Run  {
 			throw new IllegalArgumentException("Alphabet Must Be Larger Than 3");
 		}
 		//if the optimization type is either minimization or maximization
-		if(opt_type == 0) {
+		if(opt_type == 0) { // TODO: check
 			//it will attempt to calculate if it can factorize into one factor using the original ordering. 
 			Factorization duval = new Duval();
 			int factors = duval.factor(alphabet.toCharArray(), input.toCharArray()).size();
@@ -90,10 +90,14 @@ public class Run  {
 		}
 		//This will be ran we could not factor using the simple rule
 		//A population set will be created
-		population  = new Population(alphabet,pop_size);
-		//The ordering will then be gathered by calling the evolve function passing in the required paramaters.
+		if(option.toLowerCase().equals("greedy")){
+			population = new Population(alphabet, input, pop_size);
+		}else {
+			population = new Population(alphabet, pop_size, option);
+		}
+		//The ordering will then be gathered by calling the evolve function passing in the required parameters.
 
-		return evolve(input,alphabet,opt_type,desired_factors, stringId);
+		return evolve(input,alphabet,opt_type,desired_factors,stringId);
 	}
 	
 	/**

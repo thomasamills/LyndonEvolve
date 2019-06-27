@@ -22,7 +22,7 @@ public class FitnessTestTest {
 	public void setUp() {
 		input = "jababababiideecccjjiikbiicdfffeffffghiccjk";
 		alphabet = "abcdefghijk";
-		p = new Population(alphabet,10);
+		p = new Population(alphabet,10,"srandom");
 	}
 
 	@Test	

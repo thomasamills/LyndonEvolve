@@ -65,7 +65,7 @@ public abstract class AlphabetReorderingAlg {
         //System.out.println("prs: " + factorsEPV.toString());
         for(CharExpFactPair pri : factorsEPV){
             stringPrefix = beforeChar(word, pri.getCharacter());
-            HashSet<String> set = new HashSet<String>(Arrays.asList(stringPrefix.split("")));
+            HashSet<String> set = new HashSet<>(Arrays.asList(stringPrefix.split("")));
             set.remove("");
             int lengthForReset = set.size();
             map.reset(lengthForReset);
@@ -270,5 +270,4 @@ public abstract class AlphabetReorderingAlg {
             return xBlock;
         }
     }
-
 }
