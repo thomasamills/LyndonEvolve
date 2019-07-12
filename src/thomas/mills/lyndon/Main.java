@@ -11,8 +11,11 @@ public class Main  {
 
 		// Thomas program
 		TestProteinSequences tps = new TestProteinSequences();
+		ReadFastaToString readFastaToString = new ReadFastaToString();
+		Map<String, String> sequences = readFastaToString.read("GCF_000009605.1_ASM960v1_protein.faa");
+		System.out.println(sequences.size());
 		//tps.LexoFactors();
-		//tps.minimalFactors("frandom");
+		System.out.println(tps.minimalFactors("frandom").size());
 		//tps.minimalFactors("srandom");
 		//tps.minimalFactors("greedy");
 		/*
@@ -20,10 +23,12 @@ public class Main  {
 		tps.balancedEvolvedFactors();
 		*/
 
-		/* My test program for greedy algorithm
+		// My test program for greedy algorithm
+		/*
 		Map<String, String> sequence = new ReadFastaToString().read(System.getProperty("user.dir") + "\\GCF_000009605.1_ASM960v1_protein.faa");
 		System.out.println(sequence.values());
 		AlphabetReorderingAlg.reorderSequence(sequence, false);
-		 */
+		*/
+
 	}
 }

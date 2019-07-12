@@ -36,7 +36,7 @@ public class TestProteinSequences {
 	 * @return An array List of factor sizes (used to become a summation in comparison to a data set for lexicographical)
 	 */
 	public ArrayList<Integer> minimalFactors(String option){
-		ArrayList<Integer> scores = new ArrayList<Integer>();
+		ArrayList<Integer> scores = new ArrayList<>();
 		int count = 0;
 		for (Map.Entry<String, String> entry : sequences.entrySet()) {
 		    String key = entry.getKey();

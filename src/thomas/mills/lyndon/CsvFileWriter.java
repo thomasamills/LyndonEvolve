@@ -21,7 +21,7 @@ public class CsvFileWriter {
         File file = new File(filepath);
         try {
         	file.createNewFile();
- 
+
         	file_writer = new FileWriter(file.getAbsolutePath());
         
             //Write a generation to the CSV file

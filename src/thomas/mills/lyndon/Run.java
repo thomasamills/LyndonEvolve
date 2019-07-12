@@ -78,7 +78,7 @@ public class Run  {
 			throw new IllegalArgumentException("Alphabet Must Be Larger Than 3");
 		}
 		//if the optimization type is either minimization or maximization
-		if(opt_type == 0) { // TODO: check
+		/*if(opt_type == 0) { // TODO: check
 			//it will attempt to calculate if it can factorize into one factor using the original ordering. 
 			Factorization duval = new Duval();
 			int factors = duval.factor(alphabet.toCharArray(), input.toCharArray()).size();
@@ -87,7 +87,7 @@ public class Run  {
 				//if it is minimization, we return this optimal ordering
 				return alphabet.toCharArray();
 			}
-		}
+		}*/
 		//This will be ran we could not factor using the simple rule
 		//A population set will be created
 		if(option.toLowerCase().equals("greedy")){
@@ -144,7 +144,7 @@ public class Run  {
 			max_generations = spec_generation_count;
 		}
 		//Initializes new list to store a population
-		ArrayList<char[]> tested_population = new ArrayList<char[]>();	
+		ArrayList<char[]> tested_population = new ArrayList<>();
 		//As long as we haven't reached the maximum amount.
 		while(generation_count <= max_generations) {
 			//If the printing variable is set, it will print out the generation number

@@ -116,15 +116,15 @@ public class FitnessTest {
 	    //if we are trying to balance the amount of factors
 	    else if(opt_type == 2) {
 	    	
-	    	//we start a new priority quueue 
+	    	//we start a new priority queue
 	    	DoubleEndedPQ pq = new DoubleEndedPQ();
 	    	for(char[] solution: p.getPopulation()) {
-	    		//then get the factors for each solutoin
+	    		//then get the factors for each solution
 	    		ArrayList<String> factors = factorization.factor(solution, input);
-	    		//we then calculate the standard deviatiionof the lenghts of the facors
+	    		//we then calculate the standard deviation of the lengths of the factors
 	    		double fitness = fvc.calculate(factors);
 	    		if(factors.size() == 1 ) { //if only one factor has been returned
-	    			//thiss is to represent no variation as not a good enhancement
+	    			//this is to represent no variation as not a good enhancement
 	    		    fitness = 999999999;
 	    		}
 	    		if(print) { //only prints the fitness if selected

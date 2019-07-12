@@ -12,7 +12,10 @@ public abstract class AlphabetReorderingAlg {
         File file = new File(pathname);
         try {
             PrintWriter printWriter = new PrintWriter(file);
+            float totalCount = 0;
+            float optimizeCount = 0;
             for(Map.Entry<String,String> entry : sequence.entrySet()){
+                totalCount += 1;
                 Mapping mapping = new Mapping();
                 printWriter.println("---------------------------------------------");
                 printWriter.print("ID: ");
@@ -23,7 +26,8 @@ public abstract class AlphabetReorderingAlg {
                 printWriter.println("Factorization of the string with standard ordering (roman alphabet): ");
                 printWriter.println(proteinSeqFactors);
                 printWriter.print(" Number of factors: ");
-                printWriter.println(proteinSeqFactors.size());
+                int previousSize = proteinSeqFactors.size();
+                printWriter.println(previousSize);
                 printWriter.print("Exponent Parikh Vector: ");
                 ExponentParikhVector epv = new ExponentParikhVector(proteinSeq);
                 printWriter.println(epv);
@@ -37,12 +41,17 @@ public abstract class AlphabetReorderingAlg {
                 printWriter.println(mapping.toString());
                 printWriter.println(proteinSeqFactReorder);
                 printWriter.print("Number of factors: ");
-                printWriter.println(proteinSeqFactReorder.size());
+                int newSize = proteinSeqFactReorder.size();
+                printWriter.println(newSize);
                 printWriter.print("Difference in number of factors: ");
                 printWriter.println(proteinSeqFactReorder.size() - proteinSeqFactors.size());
                 printWriter.println("---------------------------------------------");
+                if(proteinSeqFactReorder.size() - proteinSeqFactors.size() < 0){
+                    optimizeCount += 1;
+                }
                 printWriter.flush();
             }
+            System.out.println((optimizeCount/totalCount)*100);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -68,7 +77,7 @@ public abstract class AlphabetReorderingAlg {
             HashSet<String> set = new HashSet<>(Arrays.asList(stringPrefix.split("")));
             set.remove("");
             int lengthForReset = set.size();
-            map.reset(lengthForReset);
+            //map.reset(lengthForReset);
             map.assign(pri.getCharacter());
             xs = getXsAfterChar(word, pri.getCharacter());
             good = assignToXs(map, pri, xs);
@@ -83,9 +92,9 @@ public abstract class AlphabetReorderingAlg {
         if (good || noBacktrack){
             if (!stringPrefix.isEmpty()){
                 int n = map.getAlphabetLoc() - 'a';
-                map.reset(0);
+                //map.reset(0);
                 reorder(stringPrefix, map, false);
-                map.reset(n);
+                //map.reset(n);
             }
             map.assignAll(word);
             map.readjust();
@@ -96,15 +105,15 @@ public abstract class AlphabetReorderingAlg {
             char uniqueChar = factorsEPV.get(0).getCharacter();
             map.clear();
             stringPrefix = beforeChar(word, uniqueChar);
-            map.reset(stringPrefix.length());
+            //map.reset(stringPrefix.length());
             map.assign(uniqueChar);
             ArrayList<String> Xs = getXsAfterChar(word, uniqueChar);
             assignToXs(map, factorsEPV.get(0), Xs);
             if (!stringPrefix.isEmpty()){
                 int n = map.getAlphabetLoc();
-                map.reset(0);
+                //map.reset(0);
                 reorder(stringPrefix, map, false);
-                map.reset(n);
+                //map.reset(n);
             }
             map.assignAll(word);
             map.readjust();
