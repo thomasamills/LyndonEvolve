@@ -20,7 +20,7 @@ public class FitnessTest {
 	private FactorVariationCalculator fvc;
 	//for printing
 	private boolean print = false;
-	private Duval duv = new Duval();
+	private Duval duv = new Duval(); //TODO: Delete?
 	private CsvFileWriter file_writer = new CsvFileWriter();
     private ArrayList<ArrayList<OrderingFitnessValue>> data;
     
@@ -28,7 +28,7 @@ public class FitnessTest {
 		factorization = new Duval();
 		this.print = print;
 		fvc = new FactorVariationCalculator();
-		data = new ArrayList<ArrayList<OrderingFitnessValue>>();
+		data = new ArrayList<>();
 	}
 	
 	public CsvFileWriter getFileWriter() {
@@ -36,7 +36,7 @@ public class FitnessTest {
 	}
 	
 	public void resetData() {
-		this.data = new ArrayList<ArrayList<OrderingFitnessValue>>();
+		this.data = new ArrayList<>();
 	}
 	
 	public ArrayList<ArrayList<OrderingFitnessValue>> getData(){
@@ -49,20 +49,20 @@ public class FitnessTest {
 	 * @param input string
 	 * @param opt_type (0 min, 1 max, 2 desired)
 	 * @param desired_factors number of desired factors -1 if none
-	 * @return ArrayList<char> of selected best, if the size of the list is 1, it contains the optimal. 
+	 * @return ArrayList<char[]> of selected best, if the size of the list is 1, it contains the optimal.
 	 * 
 	 */
 
 	public ArrayList<char[]> testFitness(Population p, char[] input, int opt_type,
 			int desired_factors, String stringid) {
 		
-		ArrayList<OrderingFitnessValue> generationData = new ArrayList<OrderingFitnessValue>();
+		ArrayList<OrderingFitnessValue> generationData = new ArrayList<>();
 
 		//To store sorted population
-		ArrayList<char[]> sorted_population = new ArrayList<char[]>();
+		ArrayList<char[]> sorted_population = new ArrayList<>();
 			
 		//MIN OR MAX
-	    if(opt_type == 0 || opt_type == 1) { 
+	    if(opt_type == 0 || opt_type == 1) {
 	    	//Initializes new PQ
 	    	DoubleEndedPQ pq = new DoubleEndedPQ();
 	    	//loops through entire population
@@ -78,10 +78,12 @@ public class FitnessTest {
 	    		generationData.add(ofv);
 	    
 	    		
-	    		//exit criteria if it finds a an alphabet ordering with a factorization of 2, it will 
+	    		// exit criteria if it finds an alphabet ordering with a factorization of 2, it will
 	    		// now return this one optimal solution (this is because we already know that it cannot factor into 
 	    		// one. 
-	    		if(num_factors == 2 && opt_type == 0) { 
+	    		if(num_factors == 1 && opt_type == 0) {
+                    System.out.println(stringid);
+	    		    data.add(generationData); // Added after output problems ---------------------------------------------------------------------------------------------
 	    			sorted_population.add(solution);
 	    			return sorted_population;
 	    		}
@@ -89,7 +91,6 @@ public class FitnessTest {
 	    	if(opt_type == 0) {
 	    		int count = 0; 
 	    		//for 50% of population set
-	    		
 	    		for(int i = 0; i < p.getPopulationSize()/2; i++) {
 	    			// get the least valued fitness from the double ended priority queue
 	    			OrderingFitnessValue ofs = pq.getLeast();
@@ -99,8 +100,7 @@ public class FitnessTest {
 	    		}
 	    		
 	    		//If maximization
-	    	}else if (opt_type == 1) {
-	    		
+	    	}else {
 	    		//for 50% of population 
 	    		int count = 0;
 	    		for(int i = 0; i < p.getPopulationSize()/2; i++) {
@@ -170,7 +170,9 @@ public class FitnessTest {
     			sorted_population.add(ofs.getOrdering());
 	    	}
 	    }
-	    
+	    if(data.isEmpty()){
+            System.out.println(stringid);
+        }
 	    this.data.add(generationData);
 	    
 	    return sorted_population;
@@ -185,7 +187,4 @@ public class FitnessTest {
 			return factors-desired_factors;
 		}
 	}
-	
-	
-
 }

@@ -10,7 +10,7 @@ public class Mutations implements Mutator {
 	}
 	
 	public char[] performMutation(char[] ordering) {
-		if(rand.nextInt(3) < 0 ) { //1/3 probability
+		if(rand.nextInt(3) < 1 ) { //1/3 probability
 			return randMutate(ordering);
 		}else {
 			return randDoubleMutate(ordering);

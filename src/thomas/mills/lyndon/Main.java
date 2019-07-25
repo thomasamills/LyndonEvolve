@@ -12,11 +12,11 @@ public class Main  {
 		// Thomas program
 		TestProteinSequences tps = new TestProteinSequences();
 		ReadFastaToString readFastaToString = new ReadFastaToString();
-		Map<String, String> sequences = readFastaToString.read("GCF_000009605.1_ASM960v1_protein.faa");
-		System.out.println(sequences.size());
+		//Map<String, String> sequences = readFastaToString.read("GCF_000009605.1_ASM960v1_protein.faa");
+		//System.out.println(sequences.size());
 		//tps.LexoFactors();
-		System.out.println(tps.minimalFactors("frandom").size());
-		//tps.minimalFactors("srandom");
+		//tps.minimalFactors("frandom").size();
+		tps.minimalFactors("srandom");
 		//tps.minimalFactors("greedy");
 		/*
 		tps.balancedFactors();

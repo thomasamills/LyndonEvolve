@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17c63cd4-56ab-4765-8fbb-1717d4802a56" name="Default Changelist" comment="Set up experiments for three cases">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="17c63cd4-56ab-4765-8fbb-1717d4802a56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_jgrapht_jgrapht_core_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/ModifiedDuval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/PartialOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GreedyAlgResults.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GreedyAlgResults.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/CsvFileWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/CsvFileWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LyndonGA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LyndonGA.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/FitnessTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/FitnessTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg$ExpAndBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg$ExpAndBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/GreedyAlgorithm/ExponentParikhVector.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/GreedyAlgorithm/ExponentParikhVector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/GreedyAlgorithm/LyndonFactorizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/GreedyAlgorithm/LyndonFactorizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/GreedyAlgorithm/Mapping$Letter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/GreedyAlgorithm/Mapping$Letter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/GreedyAlgorithm/Mapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/GreedyAlgorithm/Mapping.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/GreedyAlgorithm/ReadFastaToString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/GreedyAlgorithm/ReadFastaToString.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/PartiallyMappedCrossover.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/PartiallyMappedCrossover.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/Population.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/Population.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/Run.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/factorization/Duval.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/factorization/Duval.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/factorization/FactorVariationCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/factorization/FactorVariationCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/proteintest/ReadFastaToString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/proteintest/ReadFastaToString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/proteintest/TestProteinSequences.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/proteintest/TestProteinSequences.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/FitnessTestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/FitnessTestTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/RunTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/TestPopulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thomas/mills/lyndon/test/TestPopulation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_057963.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_057963.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_057963.1_min.txt" beforeDir="false" />
@@ -348,7 +333,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_239984.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239985.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239985.1_max.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/NP_239985.1_min.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_239985.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239985.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239986.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239986.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239986.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239986.1_min.txt" afterDir="false" />
@@ -367,12 +352,12 @@
       <change beforePath="$PROJECT_DIR$/results/NP_239992.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239993.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239993.1_max.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/NP_239993.1_min.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_239993.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239993.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239994.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239994.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239995.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239995.1_max.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/NP_239995.1_min.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_239995.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239995.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239996.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239996.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_239996.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_239996.1_min.txt" afterDir="false" />
@@ -484,7 +469,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240045.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240046.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240046.1_max.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/NP_240046.1_min.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240046.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240046.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240047.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240047.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240048.1_bal.txt" beforeDir="false" />
@@ -573,7 +558,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240086.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240087.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240087.1_max.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/NP_240087.1_min.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240087.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240087.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240088.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240088.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240089.1_bal.txt" beforeDir="false" />
@@ -586,7 +571,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240092.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240093.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240093.1_max.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/NP_240093.1_min.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240093.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240093.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240094.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240094.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240095.1_bal.txt" beforeDir="false" />
@@ -636,7 +621,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240115.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240116.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240116.1_max.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/NP_240116.1_min.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240116.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240116.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240117.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240117.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240117.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240117.1_min.txt" afterDir="false" />
@@ -697,7 +682,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240142.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240142.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240143.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240143.1_max.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/NP_240143.1_min.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240143.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240143.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240144.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240144.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240144.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240144.1_min.txt" afterDir="false" />
@@ -895,7 +880,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240234.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240235.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240235.1_max.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/NP_240235.1_min.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240235.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240235.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240236.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240236.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240237.1_bal.txt" beforeDir="false" />
@@ -904,7 +889,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240238.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240239.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240239.1_max.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/NP_240239.1_min.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240239.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240239.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240240.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240240.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240240.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240240.1_min.txt" afterDir="false" />
@@ -912,7 +897,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240241.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240242.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240242.1_max.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/NP_240242.1_min.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240242.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240242.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240243.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240243.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240244.1_bal.txt" beforeDir="false" />
@@ -1092,7 +1077,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240326.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240327.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240327.1_max.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/NP_240327.1_min.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240327.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240327.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240328.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240328.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240329.1_bal.txt" beforeDir="false" />
@@ -1169,7 +1154,7 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240362.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240363.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240363.1_max.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/NP_240363.1_min.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/NP_240363.1_min.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/NP_240363.1_min.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240364.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240364.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/NP_240365.1_bal.txt" beforeDir="false" />
@@ -1265,12 +1250,10 @@
       <change beforePath="$PROJECT_DIR$/results/NP_240406.1_max.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/YP_008492944.1_bal.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/YP_008492944.1_max.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thomas/mills/lyndon/CsvFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/CsvFileWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/thomas/mills/lyndon/FitnessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/FitnessTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/thomas/mills/lyndon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thomas/mills/lyndon/Mutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/Mutations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/thomas/mills/lyndon/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thomas/mills/lyndon/proteintest/TestProteinSequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thomas/mills/lyndon/proteintest/TestProteinSequences.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1287,36 +1270,40 @@
     <session id="987370284">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="396" />
+          <entry key="java" value="1085" />
+          <entry key="txt" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="396" />
+          <entry key="JAVA" value="1085" />
+          <entry key="PLAIN_TEXT" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="faa" value="1" />
-          <entry key="java" value="17" />
-          <entry key="txt" value="18" />
+          <entry key="java" value="38" />
+          <entry key="txt" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="17" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="JAVA" value="38" />
+          <entry key="PLAIN_TEXT" value="86" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.50" value="2" />
           <entry key="project.open.time.60" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.73" value="1" />
+          <entry key="project.open.time.85" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -1324,10 +1311,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/PartialOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+            <state relative-caret-position="255">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1336,28 +1332,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Mutator.java">
+        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/FitnessTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Mutations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1233">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/CsvFileWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="340">
+              <caret line="90" column="31" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1368,38 +1346,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/PartiallyMappedCrossover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3916">
+            <state relative-caret-position="68">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/proteintest/TestProteinSequences.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Mutations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="187">
+              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Run.java">
+        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="72" column="20" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="21" />
-              <folding>
-                <element signature="e#1568#1579#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/FitnessTest.java">
+        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/factorization/Duval.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1989">
-              <caret line="129" column="26" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
+            <state relative-caret-position="-328">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/Mapping.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1802">
+              <caret line="110" column="35" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -1407,17 +1391,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/CharacterExponentsPair.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
+            <state relative-caret-position="170">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/CharExpFactPair.java">
+        <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Run.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="935">
+              <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -1439,15 +1423,18 @@
         <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/Mapping.java" />
         <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg.java" />
         <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/CsvFileWriter.java" />
+        <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/proteintest/TestProteinSequences.java" />
+        <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/PartialOrder.java" />
+        <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/ModifiedDuval.java" />
+        <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/Mutations.java" />
         <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/Run.java" />
         <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/FitnessTest.java" />
-        <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/proteintest/TestProteinSequences.java" />
         <option value="$PROJECT_DIR$/src/thomas/mills/lyndon/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -1481,14 +1468,14 @@
               <item name="LyndonEvolve" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lyndon" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="factorization" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LyndonGA" type="b2602c69:ProjectViewProjectNode" />
               <item name="LyndonEvolve" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lyndon" type="462c0819:PsiDirectoryNode" />
-              <item name="factorization" type="462c0819:PsiDirectoryNode" />
+              <item name="GreedyAlgorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LyndonGA" type="b2602c69:ProjectViewProjectNode" />
@@ -1504,9 +1491,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562943621978" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564071281048" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thomas.mills.lyndon" />
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1558,14 +1557,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561634109544</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removed unnecessary case in &quot;run&quot; method because it was not printing to csv file.">
+      <created>1562943817670</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562943817670</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2344932" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4065934" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1573,14 +1579,14 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.48940998" visible="true" weight="0.3229508" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48638427" weight="0.3295082" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.48940998" visible="true" weight="0.32279533" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48562783" visible="true" weight="0.27287853" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49621785" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.3295082" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.51059" side_tool="true" visible="true" weight="0.3229508" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.51437217" side_tool="true" weight="0.26885247" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49924356" weight="0.3295082" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4968017" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1593,6 +1599,35 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Maven" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23524962" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.48940998" weight="0.3229508" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48562783" visible="true" weight="0.26885247" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49621785" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.51437217" side_tool="true" visible="true" weight="0.26885247" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4968017" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1600,272 +1635,313 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- Added method to mapping to convert Mapping to an order (char[])&#10;- Added methods to population so that it can produce 3 types of population (semi-random, fully random, and with the greedy algorithm)&#10;- Corrected typo" />
     <MESSAGE value="Set up experiments for three cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up experiments for three cases" />
+    <MESSAGE value="Removed unnecessary case in &quot;run&quot; method because it was not printing to csv file." />
+    <MESSAGE value="1.- Mutations.java, line 13: (if(rand.nextInt(3) &lt; 0 ) { //1/3 probability) -&gt; (if(rand.nextInt(3) &lt; 1 ) { //1/3 probability)&#10;&#10;2.- Run.java, line 13: (if (parent1 == alphabet.length() - 1) {) -&gt; (if (parent1 == tested_population.size() - 1) {)&#10;&#10;3.- FitnessTest.java, line 86: data.add(generationData); // Added after output problems -------------------------" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.- Mutations.java, line 13: (if(rand.nextInt(3) &lt; 0 ) { //1/3 probability) -&gt; (if(rand.nextInt(3) &lt; 1 ) { //1/3 probability)&#10;&#10;2.- Run.java, line 13: (if (parent1 == alphabet.length() - 1) {) -&gt; (if (parent1 == tested_population.size() - 1) {)&#10;&#10;3.- FitnessTest.java, line 86: data.add(generationData); // Added after output problems -------------------------" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/thomas/mills/lyndon/Run.java</url>
-          <line>177</line>
-          <properties class="thomas.mills.lyndon.Run" method="printToCsv">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/thomas/mills/lyndon/Run.java</url>
-          <line>72</line>
-          <properties class="thomas.mills.lyndon.Run" method="run">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/thomas/mills/lyndon/Run.java</url>
-          <line>127</line>
+          <line>136</line>
           <properties class="thomas.mills.lyndon.Run" method="evolve">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/thomas/mills/lyndon/Run.java</url>
-          <line>158</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/thomas/mills/lyndon/Run.java</url>
-          <line>170</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/results/NP_240026.1_min.txt">
+    <entry file="file://$PROJECT_DIR$/results/NP_239896.1_min.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_240033.1_min.txt">
+    <entry file="file://$PROJECT_DIR$/results/NP_239945.1_min.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_240038.1_min.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_239919.1_min.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_239963.1_min.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_239986.1_min.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_239875.1_min.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_239880.1_min.txt" />
-    <entry file="file://$PROJECT_DIR$/results/NP_239889.1_min.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_239893.1_min.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_239897.1_min.txt" />
-    <entry file="file://$PROJECT_DIR$/results/NP_239902.1_min.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_239917.1_min.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_239922.1_min.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_239926.1_min.txt" />
-    <entry file="file://$PROJECT_DIR$/results/NP_239930.1_min.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_239933.1_min.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_239939.1_min.txt" />
-    <entry file="file://$PROJECT_DIR$/results/NP_239949.1_min.txt" />
-    <entry file="file://$PROJECT_DIR$/results/NP_239951.1_min.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_239861.1_min.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_239872.1_min.txt" />
-    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/ExponentParikhVector.java">
+    <entry file="file://$PROJECT_DIR$/results/NP_239993.1_min.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
+        <state relative-caret-position="-871" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/Mapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/LyndonFactorizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_057963.1_max.txt" />
-    <entry file="file://$PROJECT_DIR$/results/NP_239851.1_min.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_057965.1_bal.txt" />
-    <entry file="file://$PROJECT_DIR$/results/NP_057964.1_bal.txt" />
-    <entry file="file://$PROJECT_DIR$/results.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_057964.1_max.txt" />
-    <entry file="file://$PROJECT_DIR$/results/NP_240391.1_min.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/NP_057963.1_min.txt">
+    <entry file="file://$PROJECT_DIR$/results/NP_239969.1_min.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/results/NP_239844.1_min.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_057967.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_239845.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_239865.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_239871.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_239898.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_239902.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_239923.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_239947.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_239967.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_239989.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_239988.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_239981.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-871" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_240068.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-871" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_240067.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_240072.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_240134.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_057964.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_239847.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_239867.2_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_239883.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_239903.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_239928.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_239952.2_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_239972.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_239996.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_240020.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_240044.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_240060.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_240076.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_240096.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_240120.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_240144.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/NP_240164.1_min.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ModifiedDuval.java" />
     <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Population.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+        <state relative-caret-position="238">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/proteintest/ReadFastaToString.java">
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/ModifiedDuval.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="391">
+          <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/ReadFastaToString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GCF_000009605.1_ASM960v1_protein.faa">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="38" column="84" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GreedyAlgResults.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="46" selection-start-line="46" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/factorization/Duval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-387">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/CharacterExponentsPair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/CharExpFactPair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Mutator.java">
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/PartialOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Mutations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1233">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/PartiallyMappedCrossover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3916">
+        <state relative-caret-position="68">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/CharacterExponentsPair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/FitnessTest.java">
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/factorization/Duval.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="129" column="26" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
+        <state relative-caret-position="-328">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/CsvFileWriter.java">
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/AlphabetReorderingAlg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Mutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/GreedyAlgorithm/Mapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="110" column="35" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Run.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="72" column="20" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="21" />
+        <state relative-caret-position="935">
+          <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/FitnessTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="90" column="31" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
           <folding>
-            <element signature="e#1568#1579#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/proteintest/TestProteinSequences.java">
+    <entry file="file://$PROJECT_DIR$/src/thomas/mills/lyndon/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LyndonGA</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.jgrapht:jgrapht-core:1.3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
