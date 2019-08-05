@@ -14,7 +14,7 @@ public abstract class ModifiedDuval {
 
     private static PartialOrder partialOrder;
 
-    public static void reorderSequence(Map<String, String> sequence){
+    public static void reorderSequence(Map<String, String> sequence, boolean max){
         String pathname = System.getProperty("user.dir") + "\\GreedyAlgResults2.txt";
         File file = new File(pathname);
         try {
@@ -35,7 +35,7 @@ public abstract class ModifiedDuval {
                 printWriter.print(" Number of factors: ");
                 int previousSize = proteinSeqFactors.size();
                 printWriter.println(previousSize);
-                ArrayList<String> proteinSeqFactReorder = ModifiedDuval.factor(proteinSeq);
+                ArrayList<String> proteinSeqFactReorder = ModifiedDuval.factor(proteinSeq, max);
                 printWriter.print("Factorization of the string with new ordering");
                 printWriter.println(proteinSeqFactReorder);
                 printWriter.print("Number of factors: ");
@@ -80,8 +80,8 @@ public abstract class ModifiedDuval {
         }
     }
 
-    public static ArrayList<String> factor(String s){
-        partialOrder = new PartialOrder();
+    public static ArrayList<String> factor(String s, boolean max){
+        partialOrder = new PartialOrder(max);
         int h = 0;
         ArrayList<ModCharacter> chars = new ArrayList<>();
         for(Character character : s.toCharArray()){
@@ -111,7 +111,7 @@ public abstract class ModifiedDuval {
                 h += j - i;
             }
         }
-        System.out.println(partialOrder);
+        System.out.println("Number of nodes: " + partialOrder.getNumOfNodes());
         return resultList;
     }
     private static class ModCharacter implements Comparable{

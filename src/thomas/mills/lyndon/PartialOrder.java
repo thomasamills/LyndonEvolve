@@ -5,23 +5,43 @@ import org.jgrapht.graph.DefaultEdge;
 import org.jgrapht.traverse.BreadthFirstIterator;
 
 public class PartialOrder {
+    boolean max = false;
+    int numOfNodes;
 
     private DefaultDirectedGraph<Character, DefaultEdge> nodes;
 
     public PartialOrder() {
+        numOfNodes = 0;
         this.nodes = new DefaultDirectedGraph<>(DefaultEdge.class);
+    }
+
+    public PartialOrder(boolean max){
+        numOfNodes = 0;
+        this.nodes = new DefaultDirectedGraph<>(DefaultEdge.class);
+        this.max = max;
     }
 
 
     //TODO: improve time complexity
     public void assignBiggerThan(Character character, Character smaller) {
-        if(!nodes.containsVertex(character)){
-            nodes.addVertex(character);
+        Character character2;
+        Character smaller2;
+        if(max){
+            character2 = smaller;
+            smaller2 = character;
+        }else{
+            character2 = character;
+            smaller2 = smaller;
         }
-        if(!nodes.containsVertex(smaller)){
-            nodes.addVertex(smaller);
+        if(!nodes.containsVertex(character2)){
+            nodes.addVertex(character2);
+            numOfNodes += 1;
         }
-        nodes.addEdge(character, smaller);
+        if(!nodes.containsVertex(smaller2)){
+            nodes.addVertex(smaller2);
+            numOfNodes += 1;
+        }
+        nodes.addEdge(character2, smaller2);
     }
 
     public boolean hasCharMapped(Character character, Character smaller) {
@@ -62,5 +82,9 @@ public class PartialOrder {
         return "PartialOrder{" +
                 "nodes=" + nodes +
                 '}';
+    }
+
+    public int getNumOfNodes() {
+        return numOfNodes;
     }
 }

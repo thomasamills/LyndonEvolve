@@ -74,16 +74,16 @@ public class TestProteinSequences {
 	}
 	
 	/**
-	 * manimal Factors goes through the whole list of factors for a data set performs a maximum 
-	 * evolution, to manimize the amount of factors. 
+	 * minimal Factors goes through the whole list of factors for a data set performs a maximum
+	 * evolution, to minimize the amount of factors.
 	 * @return An array List of factor sizes (used to become a summation in comparison to a data set for lexicographical)
 	*/	/**
-	 * manimal Factors goes through the whole list of factors for a data set performs a maximum 
-	 * evolution, to manimize the amount of factors. 
+	 * minimal Factors goes through the whole list of factors for a data set performs a maximum
+	 * evolution, to minimize the amount of factors.
 	 * @return An array List of factor sizes (used to become a summation in comparison to a data set for lexicographical)
 	*/
 	public ArrayList<Integer> maximalFactors(String option){
-		ArrayList<Integer> scores = new ArrayList<Integer>();
+		ArrayList<Integer> scores = new ArrayList<>();
 		int count = 0;
 		for (Map.Entry<String, String> entry : sequences.entrySet()) {
 		    String key = entry.getKey();
